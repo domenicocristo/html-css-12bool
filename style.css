@@ -21,8 +21,21 @@
 .col-6 div,
 .col-8 div,
 .col-12 div {
+    color: white;
+}
+
+.nested-row {
     display: flex;
     justify-content: center;
+}
+
+.nested-col-2,
+.nested-col-6,
+.nested-col-8 {
+    display: flex;
     align-items: center;
-    color: white;
+    justify-content: center;
+    height: 25px;
+    background-color: #00e265;
+    margin: 1px;
 }
