@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    height: 50px;
+    background-color: #046cfa;
+    border: 1px solid white;
+}
+
+.col-1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
