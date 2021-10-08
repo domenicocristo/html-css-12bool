@@ -21,6 +21,8 @@
 .col-6 div,
 .col-8 div,
 .col-12 div {
+    display: flex;
+    align-items: center;
     color: white;
 }
 
