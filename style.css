@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 
-.col-1 {
+.col-1,
+.col-2,
+.col-5,
+.col-6,
+.col-8,
+.col-12 {
     height: 50px;
     background-color: #046cfa;
     border: 1px solid white;
 }
 
-.col-1 div {
+.col-1 div,
+.col-2 div,
+.col-5 div,
+.col-6 div,
+.col-8 div,
+.col-12 div {
     display: flex;
     justify-content: center;
     align-items: center;
