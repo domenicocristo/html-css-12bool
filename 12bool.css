@@ -76,24 +76,3 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
-
-.nested-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.nested-col-2 {
-    flex-basis: calc((90% / 12) * 2);
-    max-width: calc((90% / 12) * 2);
-}
-
-.nested-col-6 {
-    flex-basis: calc((90% / 12) * 6);
-    max-width: calc((90% / 12) * 6);
-}
-
-.nested-col-8 {
-    flex-basis: calc((90% / 12) * 8);
-    max-width: calc((90% / 12) * 8);
-}

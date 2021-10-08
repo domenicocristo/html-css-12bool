@@ -6,39 +6,30 @@
 
 .col-1,
 .col-2,
+.col-3,
+.col-4,
 .col-5,
 .col-6,
+.col-7,
 .col-8,
+.col-9,
+.col-10,
+.col-11,
 .col-12 {
     height: 50px;
     background-color: #046cfa;
     border: 1px solid white;
-}
-
-.col-1 div,
-.col-2 div,
-.col-5 div,
-.col-6 div,
-.col-8 div,
-.col-12 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-.nested-row {
-    display: flex;
-    justify-content: center;
-}
-
-.nested-col-2,
-.nested-col-6,
-.nested-col-8 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25px;
+.green {
     background-color: #00e265;
-    margin: 1px;
+    border: 1px solid #046cfa;
+}
+
+.max {
+    height: 100px;
+    padding: 25px;
 }
